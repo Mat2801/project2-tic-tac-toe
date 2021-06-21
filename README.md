@@ -1,59 +1,133 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Tic Tac Toe
 
-Welcome USER_NAME,
+![Tic Tac Toe]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Description of my project...
 
-## Gitpod Reminders
+Here you can find a demo of the deployed website [here]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Here you will find screenshots of the deployed website [here]()
 
 ---
 
-Happy coding!
+## UX
+
+#### 1.1. Project Goals
+
+
+#### 1.2. Wireframes
+
+All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follow the links below 
+
+|      Desktop on Acer Aspire 5     |
+|      :-----:      |
+|[Home Page]()|
+|[Play Game]()|
+|[How to Play]()|
+|[Controls]()|
+
+|      Tablet in iPad/iPad Pro view     |
+|      :-----:      |
+|[Home Page]()|
+|[Play Game]()|
+|[How to Play]()|
+|[Controls]()|
+
+|      Mobile in iPhone 5, 6, 7, 8, X     |
+|      :-----:      |
+|[Home Page]()|
+|[Play Game]()|
+|[How to Play]()|
+|[Controls]()|
+
+---
+
+#### 1.3. User Stories
+ 
+- As the developer, I want the users to enjoy and like playing the game, So that the game becomes popular.
+- As the developer, I would like the user to see detail in the design of the game. 
+- As the developer, I want the website to show my ability to code in HTML and CSS and use of javascript, So I can achieve a positive user experience for the site visitors.
+- As a developer, I want the game to be played on all devices and internet browser. 
+- As a User I don't have a PC or laptop at home and usually do my gaming via my mobile phone.
+- As a user, I want to easily understand how to play the game.
+- As a user, I want to enjoy playing the game so that I can recommend it to others.
+- As a user, I would like to easily access the rules of the game. 
+- As a user, I would like to see the contols of the game easily.
+- As a user, I want to be able to play the game as many times as I wish.
+- As a user, I want the game website to be easy to navigate so I can find the game and the instructions quickly.
+ 
+## Features
+
+#### 2.1. Existing Features
+
+**Home page**
+
+- **Landing Image**: Information here
+- **Call to action button**: Information here
+
+**Play Game**
+
+- **Scoreboard**: Information here.
+- **Game Screen**: Information here.
+
+**How to Play**
+
+- **Game Rules**: Information here
+
+**Controls**:
+
+- **Controls**: Information here
+ 
+
+#### 2.2. Future Features
+- 
+- 
+
+---
+
+## Technologies Used
+
+
+---
+
+## Testing
+
+Please see the testing process [here]()
+
+---
+
+## Deployment
+
+**How to deploy the project**
+
+Hosted on github pages
+
+1. Load up GitHub and find the correct repository.
+2. Using the project's repsoitory menu, at the top on the menu select **settings**.
+3. Scroll down until you see the **pages** section
+4. Now click on the **drop-down** menu and select the option **Master Branch**.
+5. The page refreshes and scrolls you back to the top, scroll down back to the **pages** section.
+6. The link to your deployed website will now be there.
+
+[Follow this link](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to see how to depoloy to GitHub pages. 
+
+**How to run code locally**
+
+1. Load up GitHub
+2. Find the project's repository
+3. Under the repository's name click **Clone**
+4. In the **clone with HTTPS** copy the url.
+5. Choose your IDE and open **git Bash**.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. Now type **Git Clone**, and paste the url copied from github.
+8. Just press **enter** and you clone will be copied over.
+
+---
+
+## Credits
+
+
+### 6.1. Media
+
+
+### 6.2. Acknowledgements
