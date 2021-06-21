@@ -1,0 +1,22 @@
+/*
+##########
+Font style
+##########
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/*
+#############################
+Basic styling for all windows
+#############################
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Pacifico, arial;
+}
+
+body {
+    margin: 0;
+}

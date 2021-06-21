@@ -52,7 +52,7 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 - As a user, I want to easily understand how to play the game.
 - As a user, I want to enjoy playing the game so that I can recommend it to others.
 - As a user, I would like to easily access the rules of the game. 
-- As a user, I would like to see the contols of the game easily.
+- As a user, I would like to see the controls of the game easily.
 - As a user, I want to be able to play the game as many times as I wish.
 - As a user, I want the game website to be easy to navigate so I can find the game and the instructions quickly.
  
