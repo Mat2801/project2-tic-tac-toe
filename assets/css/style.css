@@ -51,6 +51,7 @@ Game Board
     justify-content: center;
     align-items: center;
     position: relative;
+    cursor: pointer;
 }
 
 /*
@@ -63,6 +64,11 @@ Remove border from the outer edge of the game board
 .cell:nth-child(2),
 .cell:nth-child(3) {
     border-top: none;
+}
+
+.cell.x,
+.cell.circle {
+    cursor: not-allowed;
 }
 
 .cell:nth-child(3n + 1) {
@@ -114,15 +120,17 @@ Add 0 styling
 .cell.circle::after {
     content:'';
     position: absolute;
-    width: calc(var(--mark-size) * .15);
-    height: var(--mark-size);
-background-color: blue;
-}
-
-.cell.circle::before {
     border-radius: 50%;
 }
 
+.cell.circle::before {
+    width: var(--mark-size);
+    height: var(--mark-size);
+    background-color: blue;
+}
+
 .cell.circle::after {
-    border-radius: -50%;
+    width: calc(var(--mark-size) * .7);
+    height: calc(var(--mark-size) * .7);
+    background-color: white;
 }
