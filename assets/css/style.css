@@ -23,7 +23,7 @@ body {
 
 :root {
     --cell-size: 200px;
-    --mark-size: (var(--cell-size) * .9);
+    --mark-size: calc(var(--cell-size) * .9);
 }
 
 /*
@@ -47,6 +47,9 @@ Game Board
     width: var(--cell-size);
     height: var(--cell-size);
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*
@@ -75,5 +78,18 @@ Remove border from the outer edge of the game board
     border-bottom: none;
 }
 
+/*
+#################
+Add X & O styling
+#################
+*/
+
+.cell.x::before,
+.cell.x::after {
+    content:'';
+    width: calc(var(--mark-size) * .15);
+    height: var(--mark-size);
+background-color: blue;
+}
 
 
