@@ -24,24 +24,24 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 
 |      Desktop on Acer Aspire 5     |
 |      :-----:      |
-|[Home Page]()|
+|[Main Menu]()|
 |[Play Game]()|
 |[How to Play]()|
-|[Controls]()|
+|[Play the AI?]()|
 
 |      Tablet in iPad/iPad Pro view     |
 |      :-----:      |
-|[Home Page]()|
+|[Main Menu]()|
 |[Play Game]()|
 |[How to Play]()|
-|[Controls]()|
+|[Play the AI?]()|
 
 |      Mobile in iPhone 5, 6, 7, 8, X     |
 |      :-----:      |
-|[Home Page]()|
+|[Main Menu]()|
 |[Play Game]()|
 |[How to Play]()|
-|[Controls]()|
+|[Play the AI?]()|
 
 ---
 
