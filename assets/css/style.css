@@ -23,6 +23,7 @@ body {
 
 :root {
     --cell-size: 200px;
+    --mark-size: (var(--cell-size) * .9);
 }
 
 /*
@@ -36,13 +37,26 @@ Game Board
     height: 100vh;
     display: grid;
     justify-content: center;
+    justify-items: center;
     align-content: center;
+    align-items: center;
     grid-template-columns: repeat(3, auto);
 }
 
 .cell {
     width: var(--cell-size);
     height: var(--cell-size);
-    background-color: black;
-    border: 1px solid white;
+    border: 1px solid black;
+}
+
+/*
+###################################################
+Remove border from the outer edge of the game board
+###################################################
+*/
+
+.cell:first-child,
+.cell:nth-child(2),
+.cell:nth-child(3) {
+    border-top: none;
 }
