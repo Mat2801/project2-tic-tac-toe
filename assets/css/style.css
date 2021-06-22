@@ -66,11 +66,6 @@ Remove border from the outer edge of the game board
     border-top: none;
 }
 
-.cell.x,
-.cell.circle {
-    cursor: not-allowed;
-}
-
 .cell:nth-child(3n + 1) {
     border-left: none;
 }
@@ -85,6 +80,27 @@ Remove border from the outer edge of the game board
     border-bottom: none;
 }
 
+/* 
+###################################################
+removing cursor if a cell has already been selected
+also add a hover effect to show the x or circle
+###################################################
+*/
+.cell.x,
+.cell.circle {
+    cursor: not-allowed;
+}
+
+.cell.x::before,
+.cell.x::after {
+    background-color: blue;
+}
+
+.board.x .cell:not(.x):not(.circle):hover::before,
+.board.x .cell:not(.x):not(.circle):hover::after{
+    background-color: lightblue;
+}
+
 /*
 #############
 Add X styling
@@ -92,20 +108,23 @@ Add X styling
 */
 
 .cell.x::before,
-.cell.x::after {
+.cell.x::after,
+.board.x .cell:not(.x):not(.circle):hover::before,
+.board.x .cell:not(.x):not(.circle):hover::after {
     content:'';
     position: absolute;
     width: calc(var(--mark-size) * .15);
     height: var(--mark-size);
-background-color: blue;
 }
 
-.cell.x::before {
+.cell.x::before,
+.board.x .cell:not(.x):not(.circle):hover::before {
     transform: rotate(45deg);
     border-radius: 50%;
 }
 
-.cell.x::after {
+.cell.x::after,
+.board.x .cell:not(.x):not(.circle):hover::after {
     transform: rotate(-45deg);
     border-radius: 50%;
 }
