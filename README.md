@@ -2,7 +2,10 @@
 
 ![Tic Tac Toe]()
 
-Description of my project...
+I have decided for my second project to develop a small game we all know called Tic Tac Toe, the reason for the is because it shows off
+what I have learnt so far with javascript and its a one of the more complex games to develop. I used to love this game and feel like 
+it still hasn't got old. THe idea is to make this a multiplayer game which can eiter end in a win or a draw. Im hoping to design this
+to look a little different than the old version of the game to give it a more up to date look.
 
 Here you can find a demo of the deployed website [here]()
 
