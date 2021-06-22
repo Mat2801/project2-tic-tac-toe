@@ -32,6 +32,8 @@ Main Menu
 #########
 */
 
+
+
 .main-btn {
     height: 100vh;
     width: 100vw;
@@ -41,7 +43,7 @@ Main Menu
     justify-items: center;
     align-content: center;
     align-items: center;
-    background-image: url(../images/background.jpg);
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +53,7 @@ Main Menu
     width: 200px;
     height: 100px;
     border: none;
-    color: white;
+    color: black;
     background-color: transparent;
     cursor: pointer;
     font-size: 2rem;
@@ -71,6 +73,7 @@ Game Board
     width: 100vw;
     height: 100vh;
     display: grid;
+    background-image: none;
     justify-content: center;
     justify-items: center;
     align-content: center;
@@ -232,3 +235,4 @@ Center the restart button
 .winning-message.show {
     display: flex;
 }
+
