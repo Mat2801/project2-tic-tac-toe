@@ -50,6 +50,7 @@ Game Board
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 /*
@@ -79,17 +80,49 @@ Remove border from the outer edge of the game board
 }
 
 /*
-#################
-Add X & O styling
-#################
+#############
+Add X styling
+#############
 */
 
 .cell.x::before,
 .cell.x::after {
     content:'';
+    position: absolute;
     width: calc(var(--mark-size) * .15);
     height: var(--mark-size);
 background-color: blue;
 }
 
+.cell.x::before {
+    transform: rotate(45deg);
+    border-radius: 50%;
+}
 
+.cell.x::after {
+    transform: rotate(-45deg);
+    border-radius: 50%;
+}
+
+/*
+#############
+Add 0 styling
+#############
+*/
+
+.cell.circle::before,
+.cell.circle::after {
+    content:'';
+    position: absolute;
+    width: calc(var(--mark-size) * .15);
+    height: var(--mark-size);
+background-color: blue;
+}
+
+.cell.circle::before {
+    border-radius: 50%;
+}
+
+.cell.circle::after {
+    border-radius: -50%;
+}
