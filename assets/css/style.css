@@ -158,3 +158,42 @@ Add 0 styling
     height: calc(var(--mark-size) * .7);
     background-color: white;
 }
+
+/*
+#########################
+Center the restart button
+#########################
+*/
+
+.winning-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5rem;
+    flex-direction: column;
+}
+
+.winning-message button {
+    font-size: 3rem;
+    background-color: white;
+    border: 2px solid black;
+    padding: .25em .5em;
+    cursor: pointer;
+}
+
+.winning-message button:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+} 
+
+.winning-message.show {
+    display: flex;
+}
