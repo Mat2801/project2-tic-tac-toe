@@ -2,11 +2,20 @@
 const X_CLASS = 'x';
 const CIRCLE_CLASS = 'circle';
 let cellElements = document.querySelectorAll('[data-cell]');
+let board = document.getElementById('board');
 let circleTurn;
-// Once clicking on a cell it becomes true and can no longer be clicked
-cellElements.forEach(cell => {
+
+startGame();
+
+function startGame() {
+    circleTurn = false;
+    // Once clicking on a cell it becomes true and can no longer be clicked
+    cellElements.forEach(cell => {
     cell.addEventListener('click', handleClick, {once: true});
 });
+    setBoardHoverClass();
+
+}
 
 /* 
 This function will handle all click events
@@ -17,7 +26,8 @@ function handleClick(event) {
     placeMark(cell, currentClass);
     //Check for win 
     //Check for draw
-    switchTurns()
+    switchTurns();
+    setBoardHoverClass();
 };
 
 /*
@@ -32,6 +42,20 @@ This will switch turns for each class x and circle
 */
 function switchTurns() {
     circleTurn = !circleTurn;
+}
+
+/*
+show a light x or cirlce when hovering over depending on 
+whos turn it is
+*/
+function setBoardHoverClass() {
+    board.classList.remove(X_CLASS);
+    board.classList.remove(CIRCLE_CLASS);
+    if (circleTurn) {
+        board.classList.add(CIRCLE_CLASS);
+    } else {
+        board.classList.add(X_CLASS);
+}
 }
 
 
