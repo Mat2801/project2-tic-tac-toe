@@ -236,3 +236,14 @@ Center the restart button
     display: flex;
 }
 
+/*
+#########################
+Styling for new main menu
+#########################
+*/
+
+.active {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
