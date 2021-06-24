@@ -73,7 +73,7 @@ Game Board
     width: 100vw;
     height: 100vh;
     display: grid;
-    background-image: none;
+    background-color: black;
     justify-content: center;
     justify-items: center;
     align-content: center;
@@ -84,7 +84,7 @@ Game Board
 .cell {
     width: var(--cell-size);
     height: var(--cell-size);
-    border: 1px solid black;
+    border: 3px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,15 +130,21 @@ also add a hover effect to show the x or circle
 }
 
 .cell.x::before,
-.cell.x::after,
+.cell.x::after {
+    background-color: purple;
+}
+
 .cell.circle::before {
-    background-color: blue;
+    background-color: lime;
 }
 
 .board.x .cell:not(.x):not(.circle):hover::before,
-.board.x .cell:not(.x):not(.circle):hover::after,
-.board.circle .cell:not(.x):not(.circle):hover::before{
-    background-color: lightblue;
+.board.x .cell:not(.x):not(.circle):hover::after {
+    background-color: lightgray;
+}
+
+.board.circle .cell:not(.x):not(.circle):hover::before {
+    background-color: lightgray;
 }
 
 /*
@@ -194,7 +200,7 @@ Add 0 styling
 .board.circle .cell:not(.x):not(.circle):hover::after {
     width: calc(var(--mark-size) * .7);
     height: calc(var(--mark-size) * .7);
-    background-color: white;
+    background-color: black;
 }
 
 /*
@@ -236,14 +242,32 @@ Center the restart button
     display: flex;
 }
 
-/*
-#########################
-Styling for new main menu
-#########################
-*/
+@media screen and (max-width: 1024px) {
+    .board {
+        width: 75vw;
+        height: 75vh;
+    }
+}
 
-.active {
-    background-color: #000 !important;
-    color: #fff !important;
+@media screen and (max-width: 768px) {
+
+    :root {
+        --cell-size: 175px;
+    }
+    .board {
+        width: 75vw;
+        height: 75vh;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    :root {
+        --cell-size: 90px;
+    }
+    .board {
+        width: 75vw;
+        height: 75vh;
+    }
 }
 
