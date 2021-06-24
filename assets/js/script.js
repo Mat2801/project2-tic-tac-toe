@@ -10,20 +10,29 @@ const WINNING_COMBINATIONS = [
     [2, 5, 8],
     [0, 4, 8],
     [2, 4, 6]
-]
+];
 let cellElements = document.querySelectorAll('[data-cell]');
+let winningMessageTextElement = document.querySelector('[data-winning-message-text]');
 let board = document.getElementById('board');
+let winningMessageElement = document.getElementById('winningMessage');
+let restartButton = document.getElementById("restartButton");
 let circleTurn;
 
 startGame();
+
+restartButton.addEventListener("click", startGame);
 
 function startGame() {
     circleTurn = false;
     // Once clicking on a cell it becomes true and can no longer be clicked
     cellElements.forEach(cell => {
+        cell.classList.remove(X_CLASS)
+        cell.classList.remove(CIRCLE_CLASS)
+        cell.removeEventListener("click", handleClick)
     cell.addEventListener('click', handleClick, {once: true});
 });
     setBoardHoverClass();
+    winningMessageElement.classList.remove('show');
 
 }
 
@@ -35,13 +44,35 @@ function handleClick(event) {
     const currentClass = circleTurn ? CIRCLE_CLASS : X_CLASS;
     placeMark(cell, currentClass);
     if (checkWin(currentClass)) {
-        console.log("winner")
+        endGame(false);
+    } else if (isDraw()) {
+        endGame(true);
+    } else {
+        switchTurns();
+        setBoardHoverClass();
     }
-    //Check for win 
-    //Check for draw
-    switchTurns();
-    setBoardHoverClass();
-};
+}
+
+/*
+Show winning message when the game has ended
+*/
+function endGame(draw) {
+    if (draw) {
+        winningMessageTextElement.innerText = 'Draw!'
+    } else {
+        winningMessageTextElement.innerText = `${circleTurn ? "O's" : "X's"} Wins!`
+    }
+    winningMessageElement.classList.add("show");
+}
+
+/*
+Check if the game has ended as a draw
+*/
+function isDraw() {
+    return [...cellElements].every(cell => {
+        return cell.classList.contains(X_CLASS) || cell.classList.contains(CIRCLE_CLASS)
+    });
+}
 
 /*
 depending on whos turn it is this will place an x or a circle
