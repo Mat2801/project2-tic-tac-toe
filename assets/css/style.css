@@ -59,10 +59,21 @@ Main Menu
     font-size: 2rem;
 }
 
-.main-btn button:hover {
-    color: purple;
+.back-btn {
+    width: 200px;
+    height: 100px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 2rem;
+    position: absolute;
 }
 
+.main-btn button:hover,
+.back-btn:hover {
+    color: purple;
+}
 /*
 ##########
 Game Board
