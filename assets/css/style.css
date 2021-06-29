@@ -43,7 +43,7 @@ Main Menu
     justify-items: center;
     align-content: center;
     align-items: center;
-    
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,26 +53,15 @@ Main Menu
     width: 200px;
     height: 100px;
     border: none;
-    color: black;
-    background-color: transparent;
-    cursor: pointer;
-    font-size: 2rem;
-}
-
-.back-btn {
-    width: 200px;
-    height: 100px;
-    border: none;
     color: white;
     background-color: transparent;
     cursor: pointer;
     font-size: 2rem;
-    position: absolute;
 }
 
 .main-btn button:hover,
 .back-btn:hover {
-    color: purple;
+    color: lime;
 }
 /*
 ##########

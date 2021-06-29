@@ -53,6 +53,21 @@ function handleClick(event) {
     }
 }
 
+function aiTurn() {
+    let available = []
+    for (let X_CLASS = 0; X_CLASS < 3; X_CLASS++) {
+        for (let CIRCLE_CLASS = 0; CIRCLE_CLASS < 3; CIRCLE_CLASS++) {
+            if (board[X_CLASS][CIRCLE_CLASS] == "") {
+                available.push({X_CLASS, CIRCLE_CLASS});
+            }
+        }
+    }
+}
+
+let move = random(available);
+board[move.X_CLASS][move.CIRCLE_CLASS] = ai;
+currentPlayer = X_CLASS;
+
 /*
 Show winning message when the game has ended
 */
