@@ -14,9 +14,22 @@
         #########
     -->
 
-    <div class="main-btn">
+    <div class="main-menu" id="menu">
         <div class="img-container"></div>
             <button id="play" onclick="playGameBtn()">Play Game</button>
+            <button id="rules" onclick="rulesBtn()">How To Play</button>
+    </div>
+
+    <!--
+        ###########
+        How To Play
+        ###########
+    -->
+    <div class="rules-container" id="howToPlay" style="display: none;">
+        <div class="rules-box">
+        <h1>How to play</h1>
+        <button id="mainMenu" onclick="menuBtn()">Main Menu</button>
+        </div>
     </div>
 
     <!--
@@ -24,6 +37,7 @@
         Multiplayer Game Board
         ##########
     -->
+    <div class="game-container">
     <div class="board" id="board" style="display: none;">
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
@@ -34,6 +48,7 @@
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
+    </div>
     </div>
 
     <!--

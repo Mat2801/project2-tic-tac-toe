@@ -18,6 +18,9 @@ let winningMessageElement = document.getElementById('winningMessage');
 let restartButton = document.getElementById("restartButton");
 let circleTurn;
 
+/* 
+initiates the start game function
+*/
 startGame();
 
 restartButton.addEventListener("click", startGame);
@@ -63,10 +66,6 @@ function aiTurn() {
         }
     }
 }
-
-let move = random(available);
-board[move.X_CLASS][move.CIRCLE_CLASS] = ai;
-currentPlayer = X_CLASS;
 
 /*
 Show winning message when the game has ended

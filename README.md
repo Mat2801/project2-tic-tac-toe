@@ -26,28 +26,22 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 |      :-----:      |
 |[Main Menu]()|
 |[Play Game]()|
-|[How to Play]()|
-|[Play the AI?]()|
 
 |      Tablet in iPad/iPad Pro view     |
 |      :-----:      |
 |[Main Menu]()|
 |[Play Game]()|
-|[How to Play]()|
-|[Play the AI?]()|
 
 |      Mobile in iPhone 5, 6, 7, 8, X     |
 |      :-----:      |
 |[Main Menu]()|
 |[Play Game]()|
-|[How to Play]()|
-|[Play the AI?]()|
 
 ---
 
 #### 1.3. User Stories
  
-- As the developer, I want the users to enjoy and like playing the game, So that the game becomes popular.
+- As the developer, I want the users to enjoy and like playing the game.
 - As the developer, I would like the user to see detail in the design of the game. 
 - As the developer, I want the website to show my ability to code in HTML and CSS and use of javascript, So I can achieve a positive user experience for the site visitors.
 - As a developer, I want the game to be played on all devices and internet browser. 
