@@ -20,6 +20,7 @@ function rulesBtn() {
 mainMenu.addEventListener("click", menuBtn);
 
 function menuBtn() {
+    mainMenu.style.display = "none"
     document.getElementById("menu").style.display = "";
     document.getElementById("howToPlay").style.display = "none";
 }
