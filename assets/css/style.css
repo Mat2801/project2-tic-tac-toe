@@ -335,8 +335,12 @@ Center the restart button
 
 @media screen and (max-width: 1024px) {
     .board {
-        width: 75vw;
-        height: 75vh;
+        padding-top: 400px;
+    }
+
+    .rules-container {
+        margin-top: 200px;
+        width: 50%;
     }
 }
 
@@ -345,9 +349,22 @@ Center the restart button
     :root {
         --cell-size: 175px;
     }
+
     .board {
-        width: 75vw;
-        height: 75vh;
+        padding-top: 300px;
+    }
+
+    .rules-container {
+        margin-top: 100px;
+    }
+
+    .rules-box {
+    width: 600px;
+    height: 600px;
+    }
+
+    .menu-btn {
+    margin-left: 0px;
     }
 }
 
@@ -357,7 +374,79 @@ Center the restart button
         --cell-size: 90px;
     }
     .board {
-        width: 75vw;
-        height: 75vh;
+        padding-top: 200px;
+    }
+
+    .board-menu-btn {
+        font-size: 1rem;
+    }
+
+    .main-menu button {
+        width: 175px;
+        height: 50px;
+        font-size: 1rem;
+    }
+
+    .img-container {
+    height: 200px;
+    width: 200px;
+    }
+
+    .rules-container {
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .rules-box {
+    width: 310px;
+    height: 500px;
+    margin-left: 55px;
+    }
+
+    .logo {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-left: 110px;
+    }
+
+    .menu-btn {
+    font-size: 1rem;
+    position: inherit;
+    margin-left: 150px;
+    padding-bottom: 200px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 380px) {
+    .rules-box {
+        margin-left: 35px;
     }
 }
+    
+        
+    @media screen and (max-width: 320px) {
+    .rules-box {
+        margin-left: 35px;
+        width: 250px;
+    }
+
+    .logo {
+        margin-left: 75px;
+    }
+
+    .menu-btn {
+    margin-left: 100px;
+    }
+
+    }
