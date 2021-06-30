@@ -31,24 +31,24 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 
 |      Desktop on Acer Aspire 5     |
 |      :-----:      |
-|[Main Menu](documents/Wireframes//Desktop-mainmenu.PNG)|
-|[Play Game](documents/Wireframes//Desktop-gamescreen.PNG)|
-|[Restart Game](documents/Wireframes//Desktop-restartgame.PNG)|
-|[How To Play](documents/Wireframes//Desktop-howtoplay.PNG)|
+|[Main Menu](documents/wireframes//Desktop-mainmenu.PNG)|
+|[Play Game](documents/wireframes//Desktop-gamescreen.PNG)|
+|[Restart Game](documents/wireframes//Desktop-restartgame.PNG)|
+|[How To Play](documents/wireframes//Desktop-howtoplay.PNG)|
 
 |      Tablet in iPad/iPad Pro view     |
 |      :-----:      |
-|[Main Menu](documents/Wireframes//Tablet-mainmenu.PNG)|
-|[Play Game](documents/Wireframes//Tablet-gamescreen.PNG)|
-|[Restart Game](documents/Wireframes//Tablet-restartgame.PNG)|
-|[How To Play](documents/Wireframes//Tablet-howtoplay.PNG)|
+|[Main Menu](documents/wireframes//Tablet-mainmenu.PNG)|
+|[Play Game](documents/wireframes//Tablet-gamescreen.PNG)|
+|[Restart Game](documents/wireframes//Tablet-restartgame.PNG)|
+|[How To Play](documents/wireframes//Tablet-howtoplay.PNG)|
 
 |      Mobile in iPhone 5, 6, 7, 8, X     |
 |      :-----:      |
-|[Main Menu](documents/Wireframes//Mobile-mainmenu.PNG)|
-|[Play Game](documents/Wireframes//Mobile-gamescreen.PNG)|
-|[Restart Game](documents/Wireframes//Mobile-restartgame.PNG)|
-|[How To Play](documents/Wireframes//Mobile-howtoplay.PNG)|
+|[Main Menu](documents/wireframes//Mobile-mainmenu.PNG)|
+|[Play Game](documents/wireframes//Mobile-gamescreen.PNG)|
+|[Restart Game](documents/wireframes//Mobile-restartgame.PNG)|
+|[How To Play](documents/wireframes//Mobile-howtoplay.PNG)|
 
 ---
 
