@@ -23,8 +23,15 @@ initiates the start game function
 */
 startGame();
 
+// listen for the restart button to be clicked
 restartButton.addEventListener("click", startGame);
 
+/*
+Once the play button is clicked the game will run starting with 
+X turn first we will remove all items in the cells to start a 
+fresh game and once full will display the winners message and a 
+restart button
+*/
 function startGame() {
     circleTurn = false;
     // Once clicking on a cell it becomes true and can no longer be clicked
@@ -40,30 +47,23 @@ function startGame() {
 }
 
 /* 
-This function will handle all click events
+This function will handle all click events for the game board
+when its X or O turn it will also check for a winner or a draw
 */
 function handleClick(event) {
     const cell = event.target;
     const currentClass = circleTurn ? CIRCLE_CLASS : X_CLASS;
     placeMark(cell, currentClass);
+    // this will check all winning arrays to see if anyone has won
     if (checkWin(currentClass)) {
         endGame(false);
+        //this will check all arrays to see if a draw has happened 
     } else if (isDraw()) {
         endGame(true);
+        //if non of the above have happened it will become the next players turn
     } else {
         switchTurns();
         setBoardHoverClass();
-    }
-}
-
-function aiTurn() {
-    let available = []
-    for (let X_CLASS = 0; X_CLASS < 3; X_CLASS++) {
-        for (let CIRCLE_CLASS = 0; CIRCLE_CLASS < 3; CIRCLE_CLASS++) {
-            if (board[X_CLASS][CIRCLE_CLASS] == "") {
-                available.push({X_CLASS, CIRCLE_CLASS});
-            }
-        }
     }
 }
 
