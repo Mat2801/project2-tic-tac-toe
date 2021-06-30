@@ -89,6 +89,12 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 
 ## Testing
 
+bugs
+- main menu image was carrying over to other pages, fixed using javascript to hide the image when otherscreens loaded
+- grid display broke whenever trying to restyle. Fixed by adding extra container and styling th egrid seperate.
+- using onClick functions in html fixed using addListenerEvents in Javascript
+- 
+
 Please see the testing process [here]()
 
 ---
