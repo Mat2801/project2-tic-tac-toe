@@ -1,21 +1,28 @@
 # Tic Tac Toe
 
-![Tic Tac Toe]()
+![Tic Tac Toe](documents/images//tictaktoe-logo.png)
 
 I have decided for my second project to develop a small game we all know called Tic Tac Toe, the reason for the is because it shows off
 what I have learnt so far with javascript and its a one of the more complex games to develop. I used to love this game and feel like 
 it still hasn't got old. THe idea is to make this a multiplayer game which can eiter end in a win or a draw. Im hoping to design this
 to look a little different than the old version of the game to give it a more up to date look.
 
-Here you can find a demo of the deployed website [here]()
+Here you can find a demo of the deployed website [here](https://mat2801.github.io/project2-tic-tac-toe/)
 
-Here you will find screenshots of the deployed website [here]()
+Here you will find screenshots of the deployed website [here](documents/screenshots//)
 
 ---
 
 ## UX
 
 #### 1.1. Project Goals
+My goals for this project are to show what i have learnt so far in javascript along with adding some nice styling
+i decided to make a Tic Tak Toe game. The reason i choose thise game is because i always used to enjoy playing this 
+game, many people know this game already and its always a good laugh. The primary focus of this project, is to allow full 
+functional interaction with it's users to allow for a quick and easy user experience. 
+My main goal was to create a interactive easy to use game. I choose to use a simple layout using an attractive landing page image, 
+to catch users attention. I opted for a colour scheme of black, green and blue, the reason for this is the darker colour suits
+the games look like old fashioned style along with the blue and green to compliment the logo. 
 
 
 #### 1.2. Wireframes
@@ -24,18 +31,24 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 
 |      Desktop on Acer Aspire 5     |
 |      :-----:      |
-|[Main Menu]()|
-|[Play Game]()|
+|[Main Menu](documents/Wireframes//Desktop-mainmenu.PNG)|
+|[Play Game](documents/Wireframes//Desktop-gamescreen.PNG)|
+|[Restart Game](documents/Wireframes//Desktop-restartgame.PNG)|
+|[How To Play](documents/Wireframes//Desktop-howtoplay.PNG)|
 
 |      Tablet in iPad/iPad Pro view     |
 |      :-----:      |
-|[Main Menu]()|
-|[Play Game]()|
+|[Main Menu](documents/Wireframes//Tablet-mainmenu.PNG)|
+|[Play Game](documents/Wireframes//Tablet-gamescreen.PNG)|
+|[Restart Game](documents/Wireframes//Tablet-restartgame.PNG)|
+|[How To Play](documents/Wireframes//Tablet-howtoplay.PNG)|
 
 |      Mobile in iPhone 5, 6, 7, 8, X     |
 |      :-----:      |
-|[Main Menu]()|
-|[Play Game]()|
+|[Main Menu](documents/Wireframes//Mobile-mainmenu.PNG)|
+|[Play Game](documents/Wireframes//Mobile-gamescreen.PNG)|
+|[Restart Game](documents/Wireframes//Mobile-restartgame.PNG)|
+|[How To Play](documents/Wireframes//Mobile-howtoplay.PNG)|
 
 ---
 
