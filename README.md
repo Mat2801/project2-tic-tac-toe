@@ -93,7 +93,7 @@ bugs
 - main menu image was carrying over to other pages, fixed using javascript to hide the image when otherscreens loaded
 - grid display broke whenever trying to restyle. Fixed by adding extra container and styling th egrid seperate.
 - using onClick functions in html fixed using addListenerEvents in Javascript
-- 
+- Main menu button on rules screen wouldnt display after being used once, fixed by creating a function in javascript allowing it to display in the mainmenu function
 
 Please see the testing process [here]()
 
