@@ -70,32 +70,41 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 
 #### 2.1. Existing Features
 
-**Home page**
+**Main Menu**
 
-- **Landing Image**: Information here
-- **Call to action button**: Information here
+- **Landing Image**: This is the game logo created to look old school and draw users attention.
+- **Call to action buttons**: Here are to buttons play game and how to play
 
 **Play Game**
 
-- **Scoreboard**: Information here.
-- **Game Screen**: Information here.
+- **Game Screen**: The screen will display a game board with 9 cells each cell will be empty until the user clicks a spot, there will
+                   also be a main menu button taking the user back to the main menu screen.
 
 **How to Play**
 
-- **Game Rules**: Information here
+- **Game Rules**: A box will display the rules on how to play the game and a main menu button.
 
 **Controls**:
 
-- **Controls**: Information here
+- **Controls**: Using the mouse right click to play the game.
  
 
 #### 2.2. Future Features
-- 
-- 
-
+- Animated logo 
+- Play againt AI
+- Multiplayer/Online mode 
 ---
 
 ## Technologies Used
+- [w3c Validator](https://validator.w3.org/) - To check for any errors in the HTML code.
+- [Jigsaw](https://jigsaw.w3.org/css-validator/) - To check for any errors in the style.css file. 
+- [Gitpod](https://gitpod.io/) - Used to devlop the website. 
+- [GitHub](https://github.com/) - Used to host the project.
+- [Google Fonts](https://fonts.google.com/) - Used to add font Pacifico . 
+- [HTML](https://en.wikipedia.org/wiki/HTML) - This was used to create the structure and provide the contents to my website.
+- [CSS](https://en.wikipedia.org/wiki/CSS) - This was used to create the styling for my website.
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - This was used to create run the game and any other user activity.
+- [FreeLogoDesign](https://www.freelogodesign.org/) - This was used to create my logo.
 
 
 ---
@@ -141,9 +150,14 @@ Hosted on github pages
 ---
 
 ## Credits
+- [Youtube](https://www.youtube.com/) - Helped with creating my game board using cells and structuring the gameplay.
 
 
 ### 6.1. Media
-
+- [Youtube](https://www.youtube.com/) - Helped with creating my game board using cells.
+- [FreeLogoDesign](https://www.freelogodesign.org/) - This was used to create my logo.
 
 ### 6.2. Acknowledgements
+[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for the incredible mentoring support.
+The [Code Institute](https://codeinstitute.net/) student care, slack and mentors. 
+Anthony from slack was a great help. 
