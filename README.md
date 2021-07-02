@@ -57,7 +57,7 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 - As the developer, I want the users to enjoy and like playing the game.
 - As the developer, I would like the user to see detail in the design of the game. 
 - As the developer, I want the website to show my ability to code in HTML and CSS and use of javascript, So I can achieve a positive user experience for the site visitors.
-- As a developer, I want the game to be played on all devices and internet browser. 
+- As a developer, I want to play the game on the go and at home on firefox. 
 - As a User I don't have a PC or laptop at home and usually do my gaming via my mobile phone.
 - As a user, I want to easily understand how to play the game.
 - As a user, I want to enjoy playing the game so that I can recommend it to others.
