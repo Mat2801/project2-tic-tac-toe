@@ -72,8 +72,10 @@ Show winning message when the game has ended
 */
 function endGame(draw) {
     if (draw) {
+        playAudioDraw();
         winningMessageTextElement.innerText = 'Draw!'
     } else {
+        playAudioWin();
         winningMessageTextElement.innerText = `${circleTurn ? "O's" : "X's"} Wins!`
     }
     winningMessageElement.classList.add("show");
