@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-![Tic Tac Toe](documents/images//tictaktoe-logo.png)
+![Tic Tac Toe](documents/images//tictactoe-logo.png)
 
 I have decided for my second project to develop a small game we all know called Tic Tac Toe, the reason for the is because it shows off
 what I have learnt so far with javascript and its a one of the more complex games to develop. I used to love this game and feel like 
