@@ -67,3 +67,7 @@ function playAudioWin() {
 function playAudioDraw() {
     new Audio("assets/audio/draw.mp3").play();
 }
+
+function playBgAudio() {
+    new Audio("assets/audio/game.mp3").play();
+}

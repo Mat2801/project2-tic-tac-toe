@@ -86,7 +86,7 @@ Game Board
 
 .board {
     display: none;
-    padding-top: 80px;
+    
     justify-content: center;
     justify-items: center;
     align-content: center;
@@ -117,6 +117,23 @@ Game Board
 }
 
 .board-menu-btn:hover {
+    color: lime;
+}
+
+.restart {
+    margin-left: 200px;
+    position: inherit;
+    width: 200px;
+    height: 100px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 2rem;
+    
+}
+
+.restart:hover {
     color: lime;
 }
 
