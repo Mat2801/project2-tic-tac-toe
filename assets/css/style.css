@@ -1,16 +1,8 @@
-/*
-##########
-Font style
-##########
-*/
+/*Font style*/
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-/*
-#############################
-Basic styling for all windows
-#############################
-*/
+/*Basic styling for all windows*/
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -26,13 +18,7 @@ body {
     --mark-size: calc(var(--cell-size) * .9);
 }
 
-/*
-#########
-Main Menu
-#########
-*/
-
-
+/*Main Menu*/
 
 .main-menu {
     height: 100vh;
@@ -70,14 +56,10 @@ Main Menu
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
-/*
-##########
-Game Board
-##########
-*/
+/*Game Board*/
+
 .game-container {
     height: 100vh;
     width: 100vw;
@@ -85,8 +67,7 @@ Game Board
 }
 
 .board {
-    display: none;
-    
+    display: none; 
     justify-content: center;
     justify-items: center;
     align-content: center;
@@ -129,19 +110,14 @@ Game Board
     color: white;
     background-color: transparent;
     cursor: pointer;
-    font-size: 2rem;
-    
+    font-size: 2rem;   
 }
 
 .restart:hover {
     color: lime;
 }
 
-/*
-##########
-Rules
-#########
-*/
+/*Rules*/
 
 .rules-container {
     display: none;
@@ -200,11 +176,7 @@ p {
     margin-left: 42%;
 }
 
-/*
-###################################################
-Remove border from the outer edge of the game board
-###################################################
-*/
+/*Remove border from the outer edge of the game board*/
 
 .cell:first-child,
 .cell:nth-child(2),
@@ -226,12 +198,9 @@ Remove border from the outer edge of the game board
     border-bottom: none;
 }
 
-/* 
-###################################################
-removing cursor if a cell has already been selected
-also add a hover effect to show the x or circle
-###################################################
-*/
+/*removing cursor if a cell has already been selected
+also add a hover effect to show the x or circle*/
+
 .cell.x,
 .cell.circle {
     cursor: not-allowed;
@@ -255,11 +224,7 @@ also add a hover effect to show the x or circle
     background-color: lightgray;
 }
 
-/*
-#############
-Add X styling
-#############
-*/
+/*Add X styling*/
 
 .cell.x::before,
 .cell.x::after,
@@ -283,11 +248,7 @@ Add X styling
     border-radius: 50%;
 }
 
-/*
-#############
-Add 0 styling
-#############
-*/
+/*Add 0 styling*/
 
 .cell.circle::before,
 .cell.circle::after,
@@ -311,11 +272,7 @@ Add 0 styling
     background-color: black;
 }
 
-/*
-#########################
-Center the restart button
-#########################
-*/
+/*Center the restart button*/
 
 .winning-message {
     display: none;
@@ -350,6 +307,8 @@ Center the restart button
     display: flex;
 }
 
+/* screen sizes with a max width of 1024px */
+
 @media screen and (max-width: 1024px) {
     .board {
         padding-top: 400px;
@@ -360,6 +319,8 @@ Center the restart button
         width: 50%;
     }
 }
+
+/* screen sizes with a max width of 768px */
 
 @media screen and (max-width: 768px) {
 
@@ -385,17 +346,24 @@ Center the restart button
     }
 }
 
+/* screen sizes with a max width of 420px */
+
 @media screen and (max-width: 420px) {
 
     :root {
         --cell-size: 90px;
     }
     .board {
-        padding-top: 200px;
+        padding-top: 100px;
     }
 
     .board-menu-btn {
         font-size: 1rem;
+    }
+
+    .restart {
+        font-size: 1rem;
+        margin-left: 100px;
     }
 
     .main-menu button {
@@ -444,6 +412,8 @@ Center the restart button
     }
     
 }
+
+/* screen sizes with a max width of 380px */
 
 @media screen and (max-width: 380px) {
     .rules-box {

@@ -1,83 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Tic Tac Toe</title>
 </head>
+
 <body>
 
-    <!--
-        #########
-        Main Menu
-        #########
-    -->
+    <!--Main Menu-->
 
     <div class="main-menu" id="menu">
         <div class="img-container"></div>
-            <button id="play">Play Game</button>
-            <button id="rules">How To Play</button>
+        <button id="play">Play Game</button>
+        <button id="rules">How To Play</button>
     </div>
 
-    <!--
-        ###########
-        How To Play
-        ###########
-    -->
+    <!--How To Play-->
     <div class="rules-container" id="howToPlay">
         <div class="rules-box">
-        <h1 class="title">How to play</h1>
-        <p>Player 1 is X<br>
-           Player 2 is O<br>
-           Player 1 starts by placing a X in any square.<br>
-           The winner is the first player to get<br>
-           3 in a row in any direction. <br>
-           If the board fills up and both players <br>
-           have not managed to get 3 in a row <br>
-           the game will be a draw!</p>
-           <img class="logo" src="assets/images/tictactoe-logo.png">
-        <button class="menu-btn" id="mainMenu">Main Menu</button>
+            <h1 class="title">How to play</h1>
+            <p>Player 1 is X<br>
+                Player 2 is O<br>
+                Player 1 starts by placing a X in any square.<br>
+                The winner is the first player to get<br>
+                3 in a row in any direction. <br>
+                If the board fills up and both players <br>
+                have not managed to get 3 in a row <br>
+                the game will be a draw!</p>
+            <img class="logo" src="assets/images/tictactoe-logo.png">
+            <button class="menu-btn" id="mainMenu">Main Menu</button>
         </div>
     </div>
 
-    <!--
-        ##########
-        Multiplayer Game Board
-        ##########
-    -->
+    <!--Multiplayer Game Board-->
     <div class="game-container">
         <button class="board-menu-btn" id="boardMainMenu">Main Menu</button>
-        <button class="restart" id="restart">Restart</button>   
-      <div class="board" id="board">
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>      
-      </div>
+        <button class="restart" id="restart">Restart</button>
+        <div class="board" id="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
     </div>
-    <!--
-        ##############
-        Winner message
-        ##############
-    -->
-    <div class="winning-message" id="winningMessage"> 
+
+    <!--Winner message-->
+    <div class="winning-message" id="winningMessage">
         <div data-winning-message-text></div>
         <button id="restartButton">Restart</button>
     </div>
 
-    <!--
-        #########################
-        Links for JavaScript code
-        #########################
-    -->
+    <!--Links for JavaScript code-->
     <script src="assets/js/script.js"></script>
     <script src="assets/js/nav.js"></script>
-    
+
 </body>
+
 </html>

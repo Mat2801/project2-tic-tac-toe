@@ -4,8 +4,9 @@ let play = document.getElementById("play");
 let rulesArea = document.getElementById("rules");
 let mainButton = document.getElementById("boardMainMenu");
 
+
 //hide Main Menu button on main menu screen
-mainButton.style.display = "none"
+mainButton.style.display = "none";
 
 // Listen for the play button to be clicked.
 play.addEventListener("click", playAudioBtn);
