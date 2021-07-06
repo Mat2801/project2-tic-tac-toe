@@ -18,21 +18,21 @@ Here you will find screenshots of the deployed website [here](screenshots.md)
 
 #### 1.1. Design
 
-* Colour Scheme
+**Colour Scheme**
 I opted for a colour scheme of black, green and blue, the reason for this is the darker colour suits
 the games look, like a retro game along with the blue and green to compliment the logo.
 
-* Typography
+**Typography**
 I decided to go with a retro to modern handwriting style of text. I feel the retro really suits the game 
 along with the handwriting style font. The font I decided to use is Pacifico.
 
-* Layout
+**Layout**
 I wanted to create an uncluttered game screen where navigation was easy to understand. So I opted for an old 
 school looking main menu. When on the game board you can see the simplicity along
 with the colours to make the game board stand out. When heading to the rules section I tried to keep with the retro 
 look to keep with the theme of the game.
 
-* Sound
+**Sound**
 I decided to add sound to buttons to continue the retro theme and add a little extra for the user, along with a sound for a win or a draw.
 
 #### 1.2. Wireframes
@@ -64,17 +64,17 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 
 #### 1.3. User Stories
  
- * First Time User
+ **First Time User**
 - As a first time user, I would like to play this game via my mobile phone.
 - As a first time user, I want to easily understand how to play the game.
 - As a first time user, I would like to easily access the rules of the game.
 
- * Returning Visitor 
+ **Returning Visitor**
 - As a returning user, I want to enjoy playing the game so that I can recommend it to others.
 - As a returning user, I want to be able to play the game as many times as I wish.
 - As a returning user, I would like to access the game via my tablet.
 
- * Frequent User Goals
+ **Frequent User Goals**
 - As a frequent user, I want to play the game on the go and at home.
 - As a frequent user, I would like to easily navigate straight to the game.
 
