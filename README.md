@@ -9,7 +9,17 @@ to look a little different than the old version of the game to give it a more up
 
 Here you can find a demo of the deployed website [here](https://mat2801.github.io/project2-tic-tac-toe/)
 
-Here you will find screenshots of the deployed website [here](documents/screenshots//)
+Here you will find screenshots of the deployed website [here]
+(documents/screenshots//Screenshot1.png)
+(documents/screenshots//Screenshot2.png)
+(documents/screenshots//Screenshot3.png)
+(documents/screenshots//Screenshot4.png)
+(documents/screenshots//Screenshot5.png)
+(documents/screenshots//Screenshot6.png)
+(documents/screenshots//Screenshot7.png)
+(documents/screenshots//Screenshot8.png)
+(documents/screenshots//Screenshot9.png)
+(documents/screenshots//Screenshot0.png)
 
 ---
 
