@@ -8,8 +8,8 @@ it still hasn't got old. THe idea is to make this a multiplayer game which can e
 to look a little different than the old version of the game to give it a more up to date look.
 
 Here you can find a demo of the deployed website [here](https://mat2801.github.io/project2-tic-tac-toe/)
-
 Here you will find screenshots of the deployed website [here](screenshots.md)
+
 ---
 
 ## UX
