@@ -16,6 +16,7 @@ let winningMessageTextElement = document.querySelector('[data-winning-message-te
 let board = document.getElementById('board');
 let winningMessageElement = document.getElementById('winningMessage');
 let restartButton = document.getElementById("restartButton");
+let restart = document.getElementById("restart");
 let circleTurn;
 
 /* 
@@ -25,6 +26,7 @@ startGame();
 
 // listen for the restart button to be clicked
 restartButton.addEventListener("click", startGame);
+restart.addEventListener("click", startGame);
 
 /*
 Once the play button is clicked the game will run starting with 

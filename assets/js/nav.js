@@ -22,7 +22,6 @@ function playGameBtn() {
     document.getElementById("board").style.display = "grid";
     mainButton.addEventListener("click", playAudioBtn);
     mainButton.addEventListener("click", menuBtn)
-
 }
 
 // listen for the how to play button to be clicked
@@ -66,8 +65,4 @@ function playAudioWin() {
 
 function playAudioDraw() {
     new Audio("assets/audio/draw.mp3").play();
-}
-
-function playBgAudio() {
-    new Audio("assets/audio/game.mp3").play();
 }
