@@ -3,9 +3,9 @@
 ![Tic Tac Toe](documents/images//tictactoe-logo.png)
 
 I have decided for my second project to develop a small game we all know called Tic Tac Toe, the reason for the is because it shows off
-what I have learnt so far with javascript and its a one of the more complex games to develop. The reason i choose this game is because i always used to enjoy playing tic tac toe, many people know this game already and its always a good laugh. The primary focus of this project, is to allow full 
+what I have learnt so far with javascript and it's one of the more complex games to develop. The reason I chose this game is because I always used to enjoy playing tic tac toe, many people know this game already and it's always enjoyable to play. The primary focus of this project, is to allow full 
 functional interaction with it's users to allow for a quick and easy user experience. 
-My main goal was to create a interactive easy to use game. I choose to use a simple layout using an attractive landing page image
+My main goal was to create a interactive easy to use game. I chose to use a simple layout using an attractive landing page image
 to catch users attention.
 
 Here you can find a demo of the deployed website [here](https://mat2801.github.io/project2-tic-tac-toe/)
@@ -20,19 +20,19 @@ Here you will find screenshots of the deployed website [here](screenshots.md)
 
 * Colour Scheme
 I opted for a colour scheme of black, green and blue, the reason for this is the darker colour suits
-the games look like old fashioned style along with the blue and green to compliment the logo.
+the games look, like a retro game along with the blue and green to compliment the logo.
 
 * Typography
 I decided to go with a retro to modern handwriting style of text. I feel the retro really suits the game 
-along with the handwriting style font. The font i decided to use is Pacifico.
+along with the handwriting style font. The font I decided to use is Pacifico.
 
 * Layout
-I wanted to create an uncluttered game screen where navigation was easy to understand. So i opted for an old 
-school looking main menu that lead only to 2 destinations. When on the game board you can see the simplicity along
-with the colours to make the game board stand out. When heading to the rules section i tried to keep with the retro 
+I wanted to create an uncluttered game screen where navigation was easy to understand. So I opted for an old 
+school looking main menu. When on the game board you can see the simplicity along
+with the colours to make the game board stand out. When heading to the rules section I tried to keep with the retro 
 look to keep with the theme of the game.
 
-##### *Sound
+* Sound
 I decided to add sound to buttons to continue the retro theme and add a little extra for the user, along with a sound for a win or a draw.
 
 #### 1.2. Wireframes
@@ -85,13 +85,12 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 
 **Main Menu**
 
-- **Landing Image**: This is the game logo created to look old school and draw users attention.
-- **Call to action buttons**: Here are to buttons play game and how to play
+- **Landing Image**: This is the game logo created to look retro and draw users attention.
+- **Call to action buttons**: Here are two buttons play game and how to play.
 
 **Play Game**
 
-- **Game Screen**: The screen will display a game board with 9 cells each cell will be empty until the user clicks a spot, there will
-                   also be a main menu button taking the user back to the main menu screen.
+- **Game Screen**: The screen will display a game board with 9 cells each cell will be empty until the user clicks a spot, there will also be a main menu button taking the user back to the main menu screen.
 
 **How to Play**
 
@@ -115,7 +114,7 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 #### Frameworks, Libraries & Programs Used
 - [w3c Validator](https://validator.w3.org/) - To check for any errors in the HTML code.
 - [Jigsaw](https://jigsaw.w3.org/css-validator/) - To check for any errors in the style.css file. 
-- [Gitpod](https://gitpod.io/) - Used to devlop the website. 
+- [Gitpod](https://gitpod.io/) - Used to develop the website. 
 - [GitHub](https://github.com/) - Used to host the project.
 - [Google Fonts](https://fonts.google.com/) - Used to add font Pacifico . 
 - [FreeLogoDesign](https://www.freelogodesign.org/) - This was used to create my logo.

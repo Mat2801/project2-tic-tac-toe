@@ -13,8 +13,8 @@ play.addEventListener("click", playAudioBtn);
 play.addEventListener("click", playGameBtn);
 
 /*
-Once the play button is clicked this function will be exicuted
-this will run the tic tak toe game and hide all other things
+Once the play button is clicked this function will be executed
+this will run the tic tac toe game and hide all other things
 other than the main menu button.
 */
 function playGameBtn() {
@@ -43,7 +43,7 @@ mainMenu.addEventListener("click", playAudioBtn);
 mainMenu.addEventListener("click", menuBtn);
 
 /*
-when the main menu bitton is clicked this will take the user 
+when the main menu button is clicked this will take the user 
 back to the main menu
 */
 function menuBtn() {
@@ -53,9 +53,9 @@ function menuBtn() {
     mainButton.style.display = "none"
 }
 
-/*
-All audio functions for each button and click event 
-*/
+
+//All audio functions for each button and click event 
+
 function playAudioBtn() {
     new Audio("assets/audio/button.mp3").play();
   }
