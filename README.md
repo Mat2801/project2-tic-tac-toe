@@ -3,26 +3,37 @@
 ![Tic Tac Toe](documents/images//tictactoe-logo.png)
 
 I have decided for my second project to develop a small game we all know called Tic Tac Toe, the reason for the is because it shows off
-what I have learnt so far with javascript and its a one of the more complex games to develop. I used to love this game and feel like 
-it still hasn't got old. THe idea is to make this a multiplayer game which can eiter end in a win or a draw. Im hoping to design this
-to look a little different than the old version of the game to give it a more up to date look.
+what I have learnt so far with javascript and its a one of the more complex games to develop. The reason i choose this game is because i always used to enjoy playing tic tac toe, many people know this game already and its always a good laugh. The primary focus of this project, is to allow full 
+functional interaction with it's users to allow for a quick and easy user experience. 
+My main goal was to create a interactive easy to use game. I choose to use a simple layout using an attractive landing page image
+to catch users attention.
 
 Here you can find a demo of the deployed website [here](https://mat2801.github.io/project2-tic-tac-toe/)
+
 Here you will find screenshots of the deployed website [here](screenshots.md)
 
 ---
 
 ## UX
 
-#### 1.1. Project Goals
-My goals for this project are to show what i have learnt so far in javascript along with adding some nice styling
-i decided to make a Tic Tak Toe game. The reason i choose thise game is because i always used to enjoy playing this 
-game, many people know this game already and its always a good laugh. The primary focus of this project, is to allow full 
-functional interaction with it's users to allow for a quick and easy user experience. 
-My main goal was to create a interactive easy to use game. I choose to use a simple layout using an attractive landing page image, 
-to catch users attention. I opted for a colour scheme of black, green and blue, the reason for this is the darker colour suits
-the games look like old fashioned style along with the blue and green to compliment the logo. 
+#### 1.1. Design
 
+##### Colour Scheme
+I opted for a colour scheme of black, green and blue, the reason for this is the darker colour suits
+the games look like old fashioned style along with the blue and green to compliment the logo.
+
+##### Typography
+I decided to go with a retro to modern handwriting style of text. I feel the retro really suits the game 
+along with the handwriting style font. The font i decided to use is Pacifico.
+
+##### Layout
+I wanted to create an uncluttered game screen where navigation was easy to understand. So i opted for an old 
+school looking main menu that lead only to 2 destinations. When on the game board you can see the simplicity along
+with the colours to make the game board stand out. When heading to the rules section i tried to keep with the retro 
+look to keep with the theme of the game.
+
+##### Sound
+I decided to add sound to buttons to continue the retro theme and add a little extra for the user, along with a sound for a win or a draw.
 
 #### 1.2. Wireframes
 
@@ -53,16 +64,19 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 
 #### 1.3. User Stories
  
-- As the developer, I want the users to enjoy and like playing the game.
-- As the developer, I would like the user to see detail in the design of the game. 
-- As the developer, I want the website to show my ability to code in HTML and CSS and use of javascript, So I can achieve a positive user experience for the site visitors.
-- As a developer, I want to play the game on the go and at home on firefox. 
-- As a User I don't have a PC or laptop at home and usually do my gaming via my mobile phone.
-- As a user, I want to easily understand how to play the game.
-- As a user, I want to enjoy playing the game so that I can recommend it to others.
-- As a user, I would like to easily access the rules of the game.
-- As a user, I want to be able to play the game as many times as I wish.
-- As a user, I want the game website to be easy to navigate so I can find the game and the instructions quickly.
+###### First Time User
+- As a first time user, I would like to play this game via my mobile phone.
+- As a first time user, I want to easily understand how to play the game.
+- As a first time user, I would like to easily access the rules of the game.
+###### Returning Visitor 
+- As a returning user, I want to enjoy playing the game so that I can recommend it to others.
+- As a returning user, I want to be able to play the game as many times as I wish.
+- As a returning user, I would like to access the game via my tablet.
+
+###### Frequent User Goals
+- As a frequent user, I want to play the game on the go and at home.
+- As a frequent user, I would like to easily navigate straight to the game.
+
  
 ## Features
 
@@ -88,20 +102,26 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
  
 
 #### 2.2. Future Features
-- Animated logo 
+- Animated logo
+- Background Music with a on/off toggle
+- Create a username before playing
 - Play againt AI
 - Multiplayer/Online mode 
 ---
 
 ## Technologies Used
+
+#### Languages Used
+- [HTML](https://en.wikipedia.org/wiki/HTML) - This was used to create the structure and provide the contents to my website.
+- [CSS](https://en.wikipedia.org/wiki/CSS) - This was used to create the styling for my website.
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - This was used to create run the game and any other user activity.
+
+#### Frameworks, Libraries & Programs Used
 - [w3c Validator](https://validator.w3.org/) - To check for any errors in the HTML code.
 - [Jigsaw](https://jigsaw.w3.org/css-validator/) - To check for any errors in the style.css file. 
 - [Gitpod](https://gitpod.io/) - Used to devlop the website. 
 - [GitHub](https://github.com/) - Used to host the project.
 - [Google Fonts](https://fonts.google.com/) - Used to add font Pacifico . 
-- [HTML](https://en.wikipedia.org/wiki/HTML) - This was used to create the structure and provide the contents to my website.
-- [CSS](https://en.wikipedia.org/wiki/CSS) - This was used to create the styling for my website.
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - This was used to create run the game and any other user activity.
 - [FreeLogoDesign](https://www.freelogodesign.org/) - This was used to create my logo.
 
 
@@ -137,7 +157,20 @@ Hosted on github pages
 5. Choose your IDE and open **git Bash**.
 6. Change the current working directory to the location where you want the cloned directory to be made.
 7. Now type **Git Clone**, and paste the url copied from github.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
 8. Just press **enter** and you clone will be copied over.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+
+Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
 
 ---
 
