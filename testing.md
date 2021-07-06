@@ -6,10 +6,10 @@
 ![CSS Validation]()
 
 [HTML Validator](https://validator.w3.org/)
-![HTML Validation]() 
+![HTML Validation](documents/testing//html.PNG) 
 
-[JavaScript Validator]()
-![JavaScript Validation]()
+[JavaScript Validator](http://pythontutor.com/visualize.html#mode=edit)
+- All javascript code was tested throught writing my code using pythontutor.
 
 
 ---
@@ -18,7 +18,7 @@
 
 - Tested over 4 different browsers and worked correctly.
 
-![Browser Test](readme-files/images//browser.png)
+![Browser Test](documents/testing//browsercheck.PNG)
 
 ---
 
@@ -28,50 +28,60 @@
 
 #### Desktop Tests
 
-![Main Menu]()
-![Play Game]()
-![Restart Game]()
-![How To Play]()
+![Main Menu](documents/screenshots//Screenshot1.png)
+![Play Game](documents/screenshots//Screenshot3.png)
+![How To Play](documents/screenshots//Screenshot4.png)
 
 #### Tablet Tests
 
-![Main Menu]()
-![Play Game]()
-![Restart Game]()
-![How To Play]()
+![Main Menu](documents/screenshots//Screenshot5.png)
+![Play Game](documents/screenshots//Screenshot6.png)
+![How To Play](documents/screenshots//Screenshot7.png)
 
 #### Mobile 
 
-![Main Menu]()
-![Play Game]()
-![Restart Game]()
-![How To Play]()
+![Main Menu](documents/screenshots//Screenshot8.png)
+![Play Game](documents/screenshots//Screenshot9.png)
+![How To Play](documents/screenshots//Screenshot0.png)
 
 ---
 
 ## Testing User Stories
-- As the developer, I want the users to enjoy and like playing the game.
-  * reason
-- As the developer, I would like the user to see detail in the design of the game. 
-- As the developer, I want the website to show my ability to code in HTML and CSS and use of javascript, So I can achieve a positive user experience for the site visitors.
-- As a developer, I want the game to be played on all devices and internet browser. 
-- As a User I don't have a PC or laptop at home and usually do my gaming via my mobile phone.
-- As a user, I want to easily understand how to play the game.
-- As a user, I want to enjoy playing the game so that I can recommend it to others.
-- As a user, I would like to easily access the rules of the game. 
-- As a user, I would like to see the controls of the game easily.
-- As a user, I want to be able to play the game as many times as I wish.
-- As a user, I want the game website to be easy to navigate so I can find the game and the instructions quickly.
+
+##### *First Time User
+- As a first time user, I would like to play this game via my mobile phone.
+   * This game has been made responsive on all devices an tested. 
+- As a first time user, I want to easily understand how to play the game.
+   * From the main menu screen there is a button which say **How To Play** click this and you will see all instructions.
+- As a first time user, I would like to easily play the game.
+   * From the main menu screen there is a button which says **Play Game** click this and you can start playing.
+
+  ##### *Returning Visitor
+- As a returning user, I want to be able to play the game as many times as I wish.
+   * Once loaded into the game screen there will be a **reset button** at the top of the users screen this will reset the game 
+     as many times as they like.
+   * Once the game has finished the user is prompt with a **restart** option.
+- As a returning user, I would like to access the game via my tablet.
+   * The game is fully responsive on **all** devices.
+
+  ##### *Frequent User Goals
+- As a frequent user, I want to play the game on the go and at home.
+   * The game is easily playable home or away due to **responsiveness** for all devices and **browser compatability**
+- As a frequent user, I would like to easily navigate straight to the game.
+   * The game can easily be played with the by clicking the **Play Game** button.
 
 ---
 
 ## Current Bugs
+- CSS is showing errors as seen on the validation screenshots.
+- Gitpod.yml file has 2 errors.
 
 
 #### Bugs that have been fixed
 - Main menu image was carrying over to other pages, fixed using javascript to hide the image when otherscreens loaded
-- Grid display broke whenever trying to restyle. Fixed by adding extra container and styling th egrid seperate.
+- Grid display broke whenever trying to restyle. Fixed by adding extra container and styling the grid seperate.
 - Using onClick functions in html fixed using addListenerEvents in Javascript
-- Main menu button on rules screen wouldnt display after being used once, fixed by creating a function in javascript allowing it to display in the mainmenu function
+- Main menu button on rules screen wouldn't display after being used once, fixed by creating a function in javascript allowing it to display the mainmenu function.
+
 
 Head back to the [ReadMe file](README.md)
