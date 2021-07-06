@@ -64,16 +64,16 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 
 #### 1.3. User Stories
  
-###### First Time User
+* ##### First Time User
 - As a first time user, I would like to play this game via my mobile phone.
 - As a first time user, I want to easily understand how to play the game.
 - As a first time user, I would like to easily access the rules of the game.
-###### Returning Visitor 
+* ##### Returning Visitor 
 - As a returning user, I want to enjoy playing the game so that I can recommend it to others.
 - As a returning user, I want to be able to play the game as many times as I wish.
 - As a returning user, I would like to access the game via my tablet.
 
-###### Frequent User Goals
+* ##### Frequent User Goals
 - As a frequent user, I want to play the game on the go and at home.
 - As a frequent user, I would like to easily navigate straight to the game.
 
@@ -158,16 +158,11 @@ Hosted on github pages
 6. Change the current working directory to the location where you want the cloned directory to be made.
 7. Now type **Git Clone**, and paste the url copied from github.
 
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+![Example](documents/screenshots//deployment1.PNG)
 
 8. Just press **enter** and you clone will be copied over.
 
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
+![Example](documents/screenshots//deployment2.PNG)
 
 Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
@@ -175,14 +170,18 @@ Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-re
 ---
 
 ## Credits
+
+### 6.1. Code
 - [Youtube](https://www.youtube.com/) - Helped with creating my game board using cells and structuring the gameplay.
 
+### 6.2. Content
+- All content was written by the developer.
 
-### 6.1. Media
+### 6.3. Media
 - [Youtube](https://www.youtube.com/) - Helped with creating my game board using cells.
 - [FreeLogoDesign](https://www.freelogodesign.org/) - This was used to create my logo.
 
-### 6.2. Acknowledgements
+### 6.4. Acknowledgements
 [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for the incredible mentoring support.
 The [Code Institute](https://codeinstitute.net/) student care, slack and mentors. 
 Anthony from slack was a great help. 
