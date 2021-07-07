@@ -166,17 +166,17 @@ Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
-### 6.1. Code
+**Code**
 - [Youtube](https://www.youtube.com/) - Helped with creating my game board using cells and structuring the gameplay.
 
-### 6.2. Content
+**Content**
 - All content was written by the developer.
 
-### 6.3. Media
+**Media**
 - [Youtube](https://www.youtube.com/) - Helped with creating my game board using cells.
 - [FreeLogoDesign](https://www.freelogodesign.org/) - This was used to create my logo.
 
-### 6.4. Acknowledgements
+**Acknowledgements**
 [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for the incredible mentoring support.
 The [Code Institute](https://codeinstitute.net/) student care, slack and mentors. 
 Anthony from slack was a great help. 

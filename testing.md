@@ -3,12 +3,19 @@
 ## Starting off with validation of the code
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/)
-![CSS Validation]()
+![CSS Validation](documents/testing//css1.png)
+
+- I decided to research my errors, after going through my code i could not see any issues withing my CSS. I found that unfortunatly this was an issue with CSS Validator. This was a bug on there end with them being a little outdated and new
+code always coming in its hard for the validator to keep up to date. Below are screenshots of a couple of things i found regarding this issue.
+
+[CSS Research](documents/testing//css2.png)
+[CSS research](documents/testing//css4.PNG)
 
 [HTML Validator](https://validator.w3.org/)
 ![HTML Validation](documents/testing//html.PNG) 
 
 [JavaScript Validator](http://pythontutor.com/visualize.html#mode=edit)
+![JavaScript](documents/testing//Javascript.png)
 - All javascript code was tested throught writing my code using pythontutor.
 
 
@@ -50,7 +57,7 @@
 
 ##### *First Time User
 - As a first time user, I would like to play this game via my mobile phone.
-   * This game has been made responsive on all devices an tested. 
+   * This game has been made responsive on all devices and tested using dev tools. 
 - As a first time user, I want to easily understand how to play the game.
    * From the main menu screen there is a button which say **How To Play** click this and you will see all instructions.
 - As a first time user, I would like to easily play the game.
@@ -73,8 +80,8 @@
 ---
 
 ## Current Bugs
-- CSS is showing errors as seen on the validation screenshots.
-- Gitpod.yml file has 2 errors.
+- CSS is showing errors as seen on the validation screenshots. This is a known bug with the CSS validator, i have provided     screenshots of the research i have done about these errors and warnings. 
+- Gitpod.yml file has 2 errors, these errors are known by Coding Institute. 
 
 
 #### Bugs that have been fixed
