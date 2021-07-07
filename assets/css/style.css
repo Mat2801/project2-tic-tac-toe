@@ -313,7 +313,7 @@ also add a hover effect to show the x or circle*/
 
 @media screen and (max-width: 1024px) {
     .board {
-        padding-top: 400px;
+        padding-top: 200px;
     }
 
     .rules-container {
@@ -328,10 +328,6 @@ also add a hover effect to show the x or circle*/
 
     :root {
         --cell-size: 175px;
-    }
-
-    .board {
-        padding-top: 300px;
     }
 
     .rules-container {
@@ -366,7 +362,7 @@ also add a hover effect to show the x or circle*/
 
     .restart {
         font-size: 1rem;
-        margin-left: 100px;
+        margin-left: 150px;
     }
 
     .main-menu button {
@@ -412,6 +408,14 @@ also add a hover effect to show the x or circle*/
 
     p {
         font-size: 1rem;
+    }
+
+    .winning-message {
+        font-size: 3rem;
+    }
+
+    .winning-message button {
+        font-size: 2rem;
     }
 
 }
