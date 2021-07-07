@@ -8,8 +8,8 @@
 - I decided to research my errors, after going through my code i could not see any issues withing my CSS. I found that unfortunatly this was an issue with CSS Validator. This was a bug on there end with them being a little outdated and new
 code always coming in its hard for the validator to keep up to date. Below are screenshots of a couple of things i found regarding this issue.
 
-[CSS Research](documents/testing//css2.png)
-[CSS research](documents/testing//css4.PNG)
+![CSS Research](documents/testing//css2.png)
+![CSS research](documents/testing//css4.PNG)
 
 [HTML Validator](https://validator.w3.org/)
 ![HTML Validation](documents/testing//html.PNG) 
