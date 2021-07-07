@@ -37,9 +37,9 @@ function startGame() {
     circleTurn = false;
     // Once clicking on a cell it becomes true and can no longer be clicked
     cellElements.forEach(cell => {
-        cell.classList.remove(X_CLASS)
-        cell.classList.remove(CIRCLE_CLASS)
-        cell.removeEventListener("click", handleClick)
+        cell.classList.remove(X_CLASS);
+        cell.classList.remove(CIRCLE_CLASS);
+        cell.removeEventListener("click", handleClick);
     cell.addEventListener('click', handleClick, {once: true});
 });
     setBoardHoverClass();
@@ -74,10 +74,10 @@ Show winning message when the game has ended
 function endGame(draw) {
     if (draw) {
         playAudioDraw();
-        winningMessageTextElement.innerText = 'Draw!'
+        winningMessageTextElement.innerText = 'Draw!';
     } else {
         playAudioWin();
-        winningMessageTextElement.innerText = `${circleTurn ? "O's" : "X's"} Wins!`
+        winningMessageTextElement.innerText = `${circleTurn ? "O's" : "X's"} Wins!`;
     }
     winningMessageElement.classList.add("show");
 }
@@ -87,7 +87,7 @@ Check if the game has ended as a draw
 */
 function isDraw() {
     return [...cellElements].every(cell => {
-        return cell.classList.contains(X_CLASS) || cell.classList.contains(CIRCLE_CLASS)
+        return cell.classList.contains(X_CLASS) || cell.classList.contains(CIRCLE_CLASS);
     });
 }
 
@@ -95,6 +95,7 @@ function isDraw() {
 Depending on whos turn it is this will place an x or a circle
 */
 function placeMark(cell, currentClass) {
+    cell.addEventListener("click", playAudioClick);
     cell.classList.add(currentClass);
 }
 
@@ -125,7 +126,7 @@ Check for a winning combination
 function checkWin(currentClass) {
    return WINNING_COMBINATIONS.some(combination => {
        return combination.every(index => {
-           return cellElements[index].classList.contains(currentClass)
+           return cellElements[index].classList.contains(currentClass);
        });
    });
 }

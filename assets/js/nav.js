@@ -18,11 +18,12 @@ this will run the tic tac toe game and hide all other things
 other than the main menu button.
 */
 function playGameBtn() {
-    menu.style.display = "none"
-    mainButton.style.display = ""
+    menu.style.display = "none";
+    mainButton.style.display = "";
     document.getElementById("board").style.display = "grid";
+    document.getElementById("restart").style.display = "block"
     mainButton.addEventListener("click", playAudioBtn);
-    mainButton.addEventListener("click", menuBtn)
+    mainButton.addEventListener("click", menuBtn);
 }
 
 // listen for the how to play button to be clicked
@@ -34,7 +35,8 @@ Once the how to play button is clicked this will load up the
 rules screen and hide all other elements except the main menu button
 */
 function rulesBtn() {
-    menu.style.display = "none"
+    menu.style.display = "none";
+    document.getElementById("restart").style.display = "none"
     document.getElementById("howToPlay").style.display = "block";
 }
 
@@ -50,7 +52,7 @@ function menuBtn() {
     document.getElementById("menu").style.display = "";
     document.getElementById("howToPlay").style.display = "none";
     document.getElementById("board").style.display = "none";
-    mainButton.style.display = "none"
+    mainButton.style.display = "none";
 }
 
 
@@ -60,10 +62,17 @@ function playAudioBtn() {
     new Audio("assets/audio/button.mp3").play();
   }
 
+//This audio us used on the script.js file
 function playAudioWin() {
     new Audio("assets/audio/win.mp3").play();
 }
 
+//This audio is used on the script.js file
 function playAudioDraw() {
     new Audio("assets/audio/draw.mp3").play();
+
+}
+
+function playAudioClick() {
+    new Audio("assets/audio/click.mp3").play();
 }

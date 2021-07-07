@@ -104,6 +104,7 @@ body {
 }
 
 .restart {
+    display: none;
     margin-left: 200px;
     position: inherit;
     width: 200px;

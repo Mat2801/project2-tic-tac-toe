@@ -41,42 +41,41 @@ All ```Wireframes``` were designed using [Balsamiq](https://balsamiq.com/) Follo
 
 |      Desktop on Acer Aspire 5     |
 |      :-----:      |
-|[Main Menu](documents/wireframes//Desktop-mainmenu.PNG)|
-|[Play Game](documents/wireframes//Desktop-gamescreen.PNG)|
-|[Restart Game](documents/wireframes//Desktop-restartgame.PNG)|
-|[How To Play](documents/wireframes//Desktop-howtoplay.PNG)|
+|[Main Menu](documents/wireframes/desktop//Desktop-mainmenu.PNG)|
+|[Play Game](documents/wireframes/desktop//Desktop-gamescreen.PNG)|
+|[Restart Game](documents/wireframes/desktop//Desktop-restartgame.PNG)|
+|[How To Play](documents/wireframes/desktop//Desktop-howtoplay.PNG)|
 
 |      Tablet in iPad/iPad Pro view     |
 |      :-----:      |
-|[Main Menu](documents/wireframes//Tablet-mainmenu.PNG)|
-|[Play Game](documents/wireframes//Tablet-gamescreen.PNG)|
-|[Restart Game](documents/wireframes//Tablet-restartgame.PNG)|
-|[How To Play](documents/wireframes//Tablet-howtoplay.PNG)|
+|[Main Menu](documents/wireframes/tablet//Tablet-mainmenu.PNG)|
+|[Play Game](documents/wireframes/tablet//Tablet-gamescreen.PNG)|
+|[Restart Game](documents/wireframes/tablet//Tablet-restartgame.PNG)|
+|[How To Play](documents/wireframes/tablet//Tablet-howtoplay.PNG)|
 
 |      Mobile in iPhone 5, 6, 7, 8, X     |
 |      :-----:      |
-|[Main Menu](documents/wireframes//Mobile-mainmenu.PNG)|
-|[Play Game](documents/wireframes//Mobile-gamescreen.PNG)|
-|[Restart Game](documents/wireframes//Mobile-restartgame.PNG)|
-|[How To Play](documents/wireframes//Mobile-howtoplay.PNG)|
+|[Main Menu](documents/wireframes/mobile//Mobile-mainmenu.PNG)|
+|[Play Game](documents/wireframes/mobile//Mobile-gamescreen.PNG)|
+|[Restart Game](documents/wireframes/mobile//Mobile-restartgame.PNG)|
+|[How To Play](documents/wireframes/mobile//Mobile-howtoplay.PNG)|
 
 ---
 
 #### 1.3. User Stories
  
  **First Time User**
-- As a first time user, I would like to play this game via my mobile phone.
 - As a first time user, I want to easily understand how to play the game.
 - As a first time user, I would like to easily access the rules of the game.
+- As a first time user, I would like to be able to ecit the game when im finished.
 
  **Returning Visitor**
 - As a returning user, I want to enjoy playing the game so that I can recommend it to others.
 - As a returning user, I want to be able to play the game as many times as I wish.
-- As a returning user, I would like to access the game via my tablet.
 
  **Frequent User Goals**
-- As a frequent user, I want to play the game on the go and at home.
 - As a frequent user, I would like to easily navigate straight to the game.
+- As a frequent user, I would like to access the game on mobile, tablet and desktop.
 
  
 ## Features
@@ -152,12 +151,7 @@ Hosted on github pages
 5. Choose your IDE and open **git Bash**.
 6. Change the current working directory to the location where you want the cloned directory to be made.
 7. Now type **Git Clone**, and paste the url copied from github.
-
-![Example](documents/screenshots//deployment1.PNG)
-
-8. Just press **enter** and you clone will be copied over.
-
-![Example](documents/screenshots//deployment2.PNG)
+8. Just press **enter** and your clone will be copied over.
 
 Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
