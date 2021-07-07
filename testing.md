@@ -9,7 +9,8 @@
 code always coming in its hard for the validator to keep up to date. Below are screenshots of a couple of things i found regarding this issue.
 
 ![CSS Research](documents/testing//css2.png)
-![CSS research](documents/testing//css4.PNG)
+
+![CSS research](documents/testing//css3.PNG)
 
 [HTML Validator](https://validator.w3.org/)
 ![HTML Validation](documents/testing//html.PNG) 
